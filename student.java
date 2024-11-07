@@ -1,28 +1,22 @@
-package day12;
+package assigment;
 
-public class student implements java.io.Serializable {
-	private String name;
-	private int id;
-	private String course;
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public String getCourse() {
-		return course;
-	}
-	public void setCourse(String course) {
-		this.course = course;
-	}
+public class student {
+ private  String studentname;
+ private String collegename;
+private int studentID;
+
 	
-	
+
+	public static void main(String[] args) {
+		student s1=new student();
+		  s1.studentname="thanu";
+		  s1.collegename="xyz";
+		  s1.studentID=12343;
+		   System.out.println("successful");
+		  
+		
+		
+
+	}
 
 }
